@@ -1,0 +1,31 @@
+{
+  "name": "api-blog-codetrial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.8.11"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/augusto-carlos/api-codekamba"
+  },
+  "keywords": [
+    "Node.js",
+    "MongoDB",
+    "RestFul"
+  ],
+  "author": "Augusto Carlos",
+  "license": "MIT"
+}
